@@ -1,5 +1,5 @@
 import type { Linter } from 'eslint';
 
 export const config: Linter.Config = {
-  extends: ['./baseConfig']
+  extends: ['./baseConfig', './typescript.ts']
 };
