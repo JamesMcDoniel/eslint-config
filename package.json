@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "My personal ESLint configuration",
+  "license": "MIT",
+  "author": {
+    "name": "James McDoniel",
+    "url": "https://github.com/JamesMcDoniel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesMcDoniel/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JamesMcDoniel/eslint-config/issues"
+  },
+  "homepage": "https://github.com/JamesMcDoniel/eslint-config#readme",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
