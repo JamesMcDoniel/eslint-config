@@ -1,6 +1,4 @@
-import { Linter } from 'eslint';
-
-export const config: Linter.Config = {
+module.exports = {
   root: true,
   env: {
     browser: true
